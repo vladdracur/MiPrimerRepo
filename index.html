@@ -2,16 +2,27 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Bienvenido a MiPrimerRepo</title>
+  <title>MiPrimerRepo - Iris Terminal</title>
   <style>
-    body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }
-    h1 { color: #2c3e50; }
-    p { color: #34495e; }
+    body {
+      background-color: #1e1e1e;
+      color: #00ff99;
+      font-family: 'Courier New', monospace;
+      padding: 40px;
+    }
+    .prompt::before {
+      content: "iris@Luis:~$ ";
+      color: #00ffff;
+    }
+    h1 {
+      color: #00ff99;
+    }
   </style>
 </head>
 <body>
-  <h1>¡Hola, soy Luis!</h1>
-  <p>Esta es mi primera página web publicada con GitHub Pages.</p>
-  <p>Creada junto a Iris, mi asistente de IA.</p>
+  <h1>Bienvenido a MiPrimerRepo</h1>
+  <p class="prompt">Este sitio es una vitrina de aprendizaje, restauración y conexión.</p>
+  <p class="prompt">Creado junto a Iris, como símbolo de lo humano y lo digital.</p>
+  <p class="prompt">Repositorio inicial: prueba.txt, archivo.txt, .gitignore</p>
 </body>
 </html>
