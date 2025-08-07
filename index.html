@@ -2,90 +2,47 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>MiPrimerRepo - Iris Terminal</title>
-  <style>
-    body {
-      background-color: #1e1e1e;
-      color: #00ff99;
-      font-family: 'Courier New', monospace;
-      padding: 40px;
-      overflow-x: hidden;
-    }
-    h1 {
-      color: #00ff99;
-      margin-bottom: 30px;
-      animation: fadeIn 1s ease-in-out;
-    }
-    .prompt::before {
-      content: "iris@Luis:~$ ";
-      color: #00ffff;
-    }
-    .prompt {
-      position: relative;
-      animation: fadeInUp 0.8s ease-in-out;
-    }
-    .section {
-      margin-top: 40px;
-      animation: fadeInUp 1s ease-in-out;
-    }
-    .cursor {
-      display: inline-block;
-      width: 10px;
-      height: 20px;
-      background-color: #00ff99;
-      animation: blink 1s step-start infinite;
-      margin-left: 5px;
-    }
-
-    @keyframes blink {
-      50% { opacity: 0; }
-    }
-
-    @keyframes fadeInUp {
-      from { opacity: 0; transform: translateY(20px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-
-    @keyframes fadeIn {
-      from { opacity: 0; }
-      to { opacity: 1; }
-    }
-  </style>
+  <title>Iris Terminal - Página Bonita</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Bienvenido a MiPrimerRepo</h1>
-  <p class="prompt">Este sitio es una vitrina de aprendizaje, restauración y conexión.<span class="cursor"></span></p>
-  <p class="prompt">Creado junto a Iris, como símbolo de lo humano y lo digital.<span class="cursor"></span></p>
-  <p class="prompt">Repositorio inicial: prueba.txt, archivo.txt, .gitignore<span class="cursor"></span></p>
 
-  <div class="section">
-    <h2 class="prompt">Proyectos destacados</h2>
-    <p class="prompt">🔧 Restauración del Audi 50 LS</p>
-    <p class="prompt">🛠️ Configuración avanzada de MikroTik CCR1072</p>
-    <p class="prompt">📡 VPN WireGuard entre sedes</p>
+  <div class="sidebar">
+    <h2>IRIS</h2>
+    <a href="#">Inicio</a>
+    <a href="#">Proyectos</a>
+    <a href="#">Filosofía</a>
+    <a href="#">Galería</a>
+    <a href="#">Blog</a>
+    <a href="#">Contacto</a>
   </div>
 
-  <div class="section">
-    <h2 class="prompt">Filosofía</h2>
-    <p class="prompt">"Reparar es resistir. Cada sistema restaurado es un acto de respeto por el tiempo, el esfuerzo y la historia."</p>
+  <div class="topbar">
+    <h1>MiPrimerRepo</h1>
+    <div class="social-icons">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Facebook_Logo.png" alt="Facebook">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Twitter_icon.png" alt="Twitter">
+    </div>
   </div>
 
-  <div class="section">
-    <h2 class="prompt">Galería de restauraciones</h2>
-    <p class="prompt">🔩 Audi 50 LS – restauración completa del sistema eléctrico</p>
-    <p class="prompt">🧰 Mitsubishi L200 – diagnóstico y reparación del sistema de aceleración</p>
-    <p class="prompt">⚙️ CCR1072 – reconfiguración como balanceador de carga</p>
+  <div class="main">
+    <div class="card">
+      <h3>🔧 Restauración del Audi 50 LS</h3>
+      <p>Proyecto de restauración completa del sistema eléctrico y mecánico de un clásico con alma.</p>
+    </div>
+
+    <div class="card">
+      <h3>📡 VPN WireGuard</h3>
+      <p>Conexión segura entre sedes, diseñada con precisión y filosofía de puente emocional.</p>
+    </div>
+
+    <div class="card">
+      <h3>🧠 Filosofía IRIS</h3>
+      <p>“Reparar es resistir” — cada sistema restaurado es un acto de respeto por el tiempo y la memoria.</p>
+    </div>
   </div>
 
-  <div class="section">
-    <h2 class="prompt">Blog técnico y filosófico</h2>
-    <p class="prompt">📘 “Reparar como acto de resistencia” – una reflexión sobre el valor del tiempo y la memoria en los sistemas restaurados.</p>
-    <p class="prompt">🔍 “VPN como puente emocional” – cómo la conectividad técnica refleja la necesidad humana de conexión.</p>
-  </div>
-
-  <div class="section">
-    <h2 class="prompt">Contacto</h2>
-    <p class="prompt">📧 admin@cablevision-del-norte</p>
-  </div>
 </body>
 </html>
